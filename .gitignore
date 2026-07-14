@@ -1,38 +1,36 @@
-# Binaries and executables
+# Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-bin/
-out/
-dist/
 
-# Go specific
+# Test binary, executable, or object files
 *.test
 *.out
 coverage.txt
+coverage.out
+
+# Output and temporary build directories
+bin/
+out/
+tmp/
+build/
+
+# Dependency directories
+vendor/
 
 # Go workspace file
 go.work
 go.work.sum
 
-# System files
-.DS_Store
-Thumbs.db
-
-# env file
+# Environment Variables
 .env
+.env.*
 
-# Editor/IDE
+# OS and Editor files
+.DS_Store
 .idea/
 .vscode/
 *.swp
 *.swo
-
-# Logs and databases
-*.log
-*.db
-*.postgres
-*.sql.bak
-dump.sql
