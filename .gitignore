@@ -1,34 +1,34 @@
-# Binaries for programs and plugins
+# binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Test binary, executable, or object files
+# test binary, executable, or object files
 *.test
 *.out
 coverage.txt
 coverage.out
 
-# Output and temporary build directories
+# output and temporary build directories
 bin/
 out/
 tmp/
 build/
 
-# Dependency directories
+# dependency directories
 vendor/
 
-# Go workspace file
+# go workspace file
 go.work
 go.work.sum
 
-# Environment Variables
+# environment variables
 .env
 .env.*
 
-# OS and Editor files
+# os and editor files
 .DS_Store
 .idea/
 .vscode/
