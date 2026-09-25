@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var name1 string = "adam"
 
 func main() {
+	
 	const name2 = "travis"
 
 	fmt.Println(name1)

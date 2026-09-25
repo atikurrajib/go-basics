@@ -2,7 +2,7 @@ package main
 
 func main() {
 
-	/* 	//while with for loop:
+	/* 	// while with for loop:
 	   	i := 1
 	   	for i <= 3 {
 	   		fmt.Println(i)
@@ -14,20 +14,18 @@ func main() {
 		println("1")
 	} */
 
-	/* 	//classic for loop
-
+	/* 	// classic for loo
 	   	for i := 0; i <= 3; i++ {
 	   		fmt.Println(i)
 	   	} */
 
-	/* 	//loop with break:
-
+	/* 	// loop with break:
 	   	for j := 1; j <= 9; j++ {
 	   		break
 	   		fmt.Println(j)
 	   	} */
 
-	/* 	//loop with continue
+	/* 	// loop with continue
 	   	for k := 0; k <= 9; k++ {
 	   		if k == 6 {
 	   			continue

@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	var name = "golang" // var name string = "golang"
+
+	var name = "golang"
+	// var name string = "golang" 
 	fmt.Println(name)
 
 	var isAdult bool = true
