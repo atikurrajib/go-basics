@@ -39,4 +39,6 @@ func main() {
 	if role == "admin" || hasPermissions {
 		fmt.Println("yes")
 	}
+
+	// go doesn't have ternary, you will have to use normal if else
 }

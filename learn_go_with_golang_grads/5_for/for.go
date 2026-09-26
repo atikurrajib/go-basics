@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	// for -> only construct in go for looping
+	// for is only construct in go for looping
 
 	/* 	// while with for loop:
 	   	i := 1
