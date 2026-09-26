@@ -24,10 +24,15 @@ func main() {
 	fmt.Println(name) // string -> assign empty string by default
 
 	// declare it in single line, 1d array
-	numbers := [3] int{1, 2, 3}  // varName := [size] dataType{data1, data2, data(size)}
+	numbers := [3]int{1, 2, 3} // varName := [size] dataType{data1, data2, data(size)}
 	fmt.Println(numbers)
 
 	// 2d array
-	cars := [2][2] string{{"mercedes", "benz"}, {"supra", "buggati"}}
+	cars := [2][2]string{{"mercedes", "benz"}, {"supra", "buggati"}}
 	fmt.Println(cars)
+
+	// adv. of using arrays:
+	// - fixed size, that is predictable
+	// - memory optimization
+	// - constant time access
 }
