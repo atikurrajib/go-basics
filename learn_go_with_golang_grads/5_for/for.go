@@ -1,6 +1,12 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
+
+	// for -> only construct in go for looping
 
 	/* 	// while with for loop:
 	   	i := 1
@@ -32,5 +38,10 @@ func main() {
 	   		}
 	   		fmt.Println(k) // print 0 to 9 with skiping 6
 	   	} */
+
+		// range
+		for i := range 3 {
+			fmt.Println(i)
+		}
 
 }
