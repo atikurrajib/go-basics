@@ -1,7 +1,8 @@
-package main 
+package main
 
 import (
 	"fmt"
+	"maps"
 )
 
 // maps -> hash, object, dict
@@ -48,6 +49,7 @@ func main() {
 	m:= map[string]int{"price": 40, "phones": 3}
 	fmt.Println(m) */
 
+	// search inside map
 	m:= map[string]int{"price": 40, "phones": 3}
 	fmt.Println(m)
 
@@ -58,5 +60,11 @@ func main() {
 	} else {
 		fmt.Println("not ok")
 	}
+
+	// maps comparison
+	m1 := map[string]int{"phones": 2, "price": 40}
+	m2 := map[string]int{"phones": 3, "price": 40}
+
+	fmt.Println(maps.Equal(m1, m2))
 
 }
