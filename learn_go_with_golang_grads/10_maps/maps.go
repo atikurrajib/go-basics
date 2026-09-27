@@ -7,7 +7,7 @@ import (
 // maps -> hash, object, dict
 func main() {
 
-	// creating a map
+/* 	// creating a map
 	m := make(map[string]string) // varName := make(map[keytype]valuetype)
 	// setting an element
 	m["name"] = "golang"
@@ -30,4 +30,33 @@ func main() {
 	b := make(map[string]bool)
 	b["isCompleted"] = true
 	fmt.Println(b["courseCompleted"])
+	
+	fmt.Println(len(b))
+
+	b["isFailed"] = false
+	fmt.Println(len(b))
+
+	// delete function
+	delete(b, "isFailed")
+	fmt.Println(b)
+	fmt.Println(len(b))
+
+	// clear function
+	clear(b)
+	fmt.Println(b) 
+
+	m:= map[string]int{"price": 40, "phones": 3}
+	fmt.Println(m) */
+
+	m:= map[string]int{"price": 40, "phones": 3}
+	fmt.Println(m)
+
+	k, ok := m["phones"]
+	fmt.Println((k))
+	if ok {
+		fmt.Println("all ok")
+	} else {
+		fmt.Println("not ok")
+	}
+
 }
